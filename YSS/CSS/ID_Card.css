@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Total_body {
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 50px;
+    background-color: #cccc;
+    box-shadow: 0 4px 15px black;
+    border-radius: 20px;
+    height: auto;
+    padding: 22px;
+}
+
+.id_card {
+
+    display: flex;
+}
+
+
+.image {
+    height: 10.5rem;
+    width: auto;
+    border: 2px solid black;
+    margin: 22px;
+    margin-left: 0;
+    margin-top: 32px;
+
+}
+
+body {
+    margin: 22px;
+    background-color: #e6ffda;
+}
+
+.important_information {
+    font-size: larger;
+    margin: 22px 0px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.Address {
+    direction: none;
+}
+
+.important_information div {
+    padding: 9px;
+}
+
+.profasion {
+    font-size: large;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    padding: 10px;
+}

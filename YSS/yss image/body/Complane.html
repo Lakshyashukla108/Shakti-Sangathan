@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complane</title>
+    <link rel="stylesheet" href="/CSS/Complane.css">
+</head>
+    <style>
+        body{
+            background-color: #e6ffda;
+        }
+    </style>
+<body>
+    <h1>E-Complane</h1>
+    <form action="submit_complaint.php" method="POST">
+        <!-- Name Section -->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- Address Section -->
+        <div>
+            <label for="house">House No:</label>
+            <input type="text" id="house" name="house" maxlength="35" placeholder="Enter your house number" required>
+        </div>
+
+        <!-- City and State (Uncommented) -->
+        <div>
+            <label for="city">City:</label>
+            <select name="city" id="city" required>
+                <option value="" disabled selected>Select City</option>
+                <option value="Sahibabad">Sahibabad</option>
+                <option value="Ghaziabad">Ghaziabad</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+        </div>
+
+        <!-- Complaint Section -->
+        <div>
+            <label for="complain">Complaint Box:</label>
+            <textarea name="complaint" id="complain" maxlength="1000" placeholder="Write your complaint here (max 1000 characters)" required></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

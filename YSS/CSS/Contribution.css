@@ -1,0 +1,65 @@
+h1{
+    padding: 30px;
+    font-size: 2.5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0.7rem;
+}
+
+body {
+    background-color: #e6ffda;
+    margin: 5px;
+}
+
+.header {
+    text-align: center;
+}
+
+form {
+    border: 2px solid black;
+    box-shadow: 0 4px 15px black;
+    background-color: #ccc;
+    min-width: 200px;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+div,
+.inerbox {
+
+    margin: 2rem 10px;
+
+}
+
+div {
+    font-size: larger;
+    display: inline-block;
+}
+
+div,
+input {
+    width: 99%;
+    padding: 0.75rem;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.Address {
+    position: relative;
+    bottom: 10px;
+}
+
+input {
+    font-size: large;
+}
+
+select {
+    /* this is for select button*/
+    font: 1.56rem 'Fira Sans', sans-serif;
+    width: 88%;
+    max-width: 100%;
+    height: auto;
+}

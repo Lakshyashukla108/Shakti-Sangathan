@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+form {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font: 1.56rem 'Fira Sans', sans-serif;
+    padding: 2rem;
+    width: 80%;
+    max-width: 40rem;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+input, textarea, select {
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 10rem;
+    resize: vertical;
+}
+
+button {
+    height: 2.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: greenyellow;
+    border-radius: 1.5rem;
+    border: 0.1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: limegreen;
+}
+
+div {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
